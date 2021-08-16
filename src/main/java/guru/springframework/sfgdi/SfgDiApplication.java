@@ -1,5 +1,6 @@
 package guru.springframework.sfgdi;
 
+import guru.springframework.sfgdi.config.SfgConfiguration;
 import guru.springframework.sfgdi.controllers.*;
 import guru.springframework.sfgdi.datasource.FakeDataSource;
 import guru.springframework.sfgdi.services.PrototypeBean;
@@ -57,6 +58,10 @@ public class SfgDiApplication {
 		FakeDataSource fakeDataSource = ctx.getBean(FakeDataSource.class);
 		System.out.println("----------- Properties Source");
 		System.out.println(fakeDataSource.toString());
+
+		SfgConfiguration sfgConfiguration = ctx.getBean(SfgConfiguration.class);
+		System.out.println("----------- sfgConfiguration Properties Source");
+		System.out.println(sfgConfiguration.toString());
 
 	}
 
