@@ -1,4 +1,4 @@
 guru:
-  username: QAYMLUser
-  password: QAYMLPass
-  jdbcurl: QAYMLUser
+    username: QAYMLUser
+    password: QAYMLPass
+    jdbcurl: QAYMLUser
