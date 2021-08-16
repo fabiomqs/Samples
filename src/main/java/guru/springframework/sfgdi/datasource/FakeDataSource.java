@@ -32,10 +32,9 @@ public class FakeDataSource {
 
     @Override
     public String toString() {
-        return "FakeDataSource{" +
-                "username='" + username + '\'' +
-                ", password='" + password + '\'' +
-                ", jdbcurl='" + jdbcurl + '\'' +
-                '}';
+        return "----------- FakeDataSource:" +
+                "\nusername='" + username + '\'' +
+                "\npassword='" + password + '\'' +
+                "\njdbcurl='" + jdbcurl + '\'';
     }
 }
