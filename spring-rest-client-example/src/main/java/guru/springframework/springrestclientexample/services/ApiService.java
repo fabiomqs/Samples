@@ -1,4 +1,4 @@
-package guru.springframework.springrestclientexample.service;
+package guru.springframework.springrestclientexample.services;
 
 import guru.springframework.api.domain.User;
 

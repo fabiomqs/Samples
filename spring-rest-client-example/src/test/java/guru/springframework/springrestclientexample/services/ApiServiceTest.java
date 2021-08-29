@@ -1,4 +1,4 @@
-package guru.springframework.springrestclientexample.service;
+package guru.springframework.springrestclientexample.services;
 
 import guru.springframework.api.domain.User;
 import org.junit.jupiter.api.BeforeEach;
@@ -11,8 +11,6 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 import static org.junit.jupiter.api.Assertions.*;
 
 import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 @ExtendWith(SpringExtension.class)
 @SpringBootTest
