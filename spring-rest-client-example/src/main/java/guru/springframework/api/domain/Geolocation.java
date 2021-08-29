@@ -1,6 +1,8 @@
 
 package guru.springframework.api.domain;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
@@ -9,6 +11,7 @@ import javax.annotation.Generated;
 public class Geolocation implements Serializable {
 
     private String lat;
+    //@JsonProperty( "long" )
     private String _long;
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
 
