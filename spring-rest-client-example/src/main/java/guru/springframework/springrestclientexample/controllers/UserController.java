@@ -18,7 +18,7 @@ public class UserController {
 
     @GetMapping({"", "/"})
     public String getAllUsers(Model model) {
-        model.addAttribute("users", apiService.getUsers());
+        model.addAttribute("users", apiService.getUsersFlux());
         return "userlist";
     }
 
